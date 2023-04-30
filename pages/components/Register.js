@@ -50,17 +50,14 @@ class Register extends Component {
                               value={this.state.subscription}
                               onChange={event => this.setState({ subscription: event.target.value })}  
                               type="hidden"
-                              
                           />
                       </Form.Field>
-                      
                       <div className="text-center">
                         <div className="mx-auto">
                           <Button loading={this.state.loading}  color='yellow' content='Yellow'>
                           Join The Community
                           </Button>
                         </div>
-                        
                       </div>
                   </Form>
                   </div>
