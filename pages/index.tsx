@@ -3,14 +3,13 @@ import { Web3Button } from '@web3modal/react'
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-        <Web3Button />
-        </p>
+    <div className="flex items-center flex-col justify-center h-screen max-w-2xl mx-auto">
+      <div className='p-2'>
+        <Image src="/3.jpeg" width={600} height={100} alt="img" />
       </div>
-
-    </main>
+      <div className="p-2">
+        <Web3Button />
+      </div>
+    </div>
   )
 }
