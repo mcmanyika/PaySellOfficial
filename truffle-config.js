@@ -27,8 +27,8 @@ module.exports = {
     //   skipDryRun: true
     // },
   },
-  contracts_directory: './src/contracts/',
-  contracts_build_directory: './src/abis/',
+  contracts_directory: './contracts/',
+  contracts_build_directory: './abis/',
 
   compilers: {
     solc: {

@@ -95,12 +95,5 @@ const reportError = (error) => {
 export {
   isWallectConnected,
   connectWallet,
-  performContribute,
   getInfo,
-  raiseProposal,
-  getProposals,
-  getProposal,
-  voteOnProposal,
-  listVoters,
-  payoutBeneficiary
 }
